@@ -1,0 +1,7 @@
+let N = 8,
+  i;
+let harmonic = 1;
+for (i = 2; i <= N; i++) {
+  harmonic += 1 / i;
+}
+console.log('N harmonic value is ' + harmonic);
